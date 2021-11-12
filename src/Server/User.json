@@ -1,0 +1,209 @@
+{
+  "user": [
+    {
+      "name": "a",
+      "email": "ak@gmail.com",
+      "age": "11",
+      "address": "aaaa",
+      "gender": "male",
+      "password": "aaaaaaaa",
+      "id": 1
+    },
+    {
+      "name": "a",
+      "email": "akk@gmail.com",
+      "age": "11",
+      "address": "a11111",
+      "gender": "male",
+      "password": "11111111",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "pname": "A",
+      "price": 2345,
+      "quantity": 1000,
+      "images": "../Images/1.jpg"
+    },
+    {
+      "id": 2,
+      "pname": "B",
+      "price": 2000,
+      "quantity": 2000,
+      "images": "../Images/2.jpg"
+    },
+    {
+      "id": 3,
+      "pname": "C",
+      "price": 345,
+      "quantity": 3000,
+      "images": "../Images/3.jpg"
+    },
+    {
+      "id": 4,
+      "pname": "D",
+      "price": 4345,
+      "quantity": 4000,
+      "images": "../Images/4.jpg"
+    },
+    {
+      "id": 5,
+      "pname": "E",
+      "price": 5345,
+      "quantity": 2000,
+      "images": "../Images/5.jpg"
+    },
+    {
+      "id": 6,
+      "pname": "F",
+      "price": 6345,
+      "quantity": 5000,
+      "images": "../Images/6.jpg"
+    },
+    {
+      "id": 7,
+      "pname": "G",
+      "price": 2645,
+      "quantity": 1000,
+      "images": "../Images/7.jpg"
+    },
+    {
+      "id": 8,
+      "pname": "H",
+      "price": 6345,
+      "quantity": 6000,
+      "images": "../Images/8.jpg"
+    },
+    {
+      "id": 9,
+      "pname": "I",
+      "price": 2445,
+      "quantity": 7000,
+      "images": "../Images/9.jpg"
+    },
+    {
+      "id": 10,
+      "pname": "J",
+      "price": 2345,
+      "quantity": 1000,
+      "images": "../Images/10.jpg"
+    },
+    {
+      "id": 11,
+      "pname": "K",
+      "price": 2345,
+      "quantity": 1000,
+      "images": "../Images/1.jpg"
+    },
+    {
+      "id": 12,
+      "pname": "L",
+      "price": 2000,
+      "quantity": 2000,
+      "images": "../Images/2.jpg"
+    },
+    {
+      "id": 13,
+      "pname": "M",
+      "price": 345,
+      "quantity": 3000,
+      "images": "../Images/3.jpg"
+    },
+    {
+      "id": 14,
+      "pname": "N",
+      "price": 4345,
+      "quantity": 4000,
+      "images": "../Images/4.jpg"
+    },
+    {
+      "id": 15,
+      "pname": "O",
+      "price": 5345,
+      "quantity": 2000,
+      "images": "../Images/5.jpg"
+    },
+    {
+      "id": 16,
+      "pname": "P",
+      "price": 6345,
+      "quantity": 5000,
+      "images": "../Images/6.jpg"
+    },
+    {
+      "id": 17,
+      "pname": "Q",
+      "price": 2645,
+      "quantity": 1000,
+      "images": "../Images/7.jpg"
+    },
+    {
+      "id": 18,
+      "pname": "R",
+      "price": 6345,
+      "quantity": 6000,
+      "images": "../Images/8.jpg"
+    },
+    {
+      "id": 19,
+      "pname": "S",
+      "price": 2445,
+      "quantity": 7000,
+      "images": "../Images/9.jpg"
+    },
+    {
+      "id": 20,
+      "pname": "T",
+      "price": 2345,
+      "quantity": 1000,
+      "images": "../Images/10.jpg"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "coursesname": "java script",
+      "courselink": "https://www.w3schools.com/js/default.asp"
+    },
+    {
+      "id": 2,
+      "coursesname": "html",
+      "courselink": "https://www.w3schools.com/html/default.asp"
+    },
+    {
+      "id": 3,
+      "coursesname": "css",
+      "courselink": "https://www.w3schools.com/css/default.asp"
+    },
+    {
+      "id": 4,
+      "coursesname": "java",
+      "courselink": "https://www.w3schools.com/java/default.asp"
+    },
+    {
+      "coursesname": "Bootstrap",
+      "courselink": "https://www.w3schools.com/bootstrap/bootstrap_ver.asp",
+      "id": 5
+    }
+  ],
+  "userquery": [
+    {
+      "name": "a",
+      "email": "ak@gmail.com",
+      "mobile": "a",
+      "address": "a",
+      "comment": "ak@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "a",
+      "email": "ak@gmail.com",
+      "mobile": "aa",
+      "address": "aa",
+      "comment": "aa",
+      "id": 2
+    }
+  ]
+}

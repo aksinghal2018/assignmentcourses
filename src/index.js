@@ -3,15 +3,29 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import Sagafunction from './Middleware/Sagafunction';
+import createSagaMiddleware from '@redux-saga/core';
+import { applyMiddleware } from 'redux';
+const initialState={detailsData:[],user:{},productdata:[],coursesdata:[]}
+function reducer(state=initialState,actions){
+    switch(actions.type){
+    case 'fetch' : return{detailsData:[...state.detailsData,actions.payload]}
+    default : return state;
+  }
+}
+const sagaMiddleware=createSagaMiddleware();
+const store=createStore(reducer,applyMiddleware(sagaMiddleware));
+sagaMiddleware.run(Sagafunction)
 ReactDOM.render(
   <React.StrictMode>
+     <Provider store={store}>
+   
     <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
